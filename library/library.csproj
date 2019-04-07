@@ -180,6 +180,8 @@
     <Content Include="librarian\assets\scss\variables.css" />
     <Content Include="librarian\assets\scss\widgets.css" />
     <Content Include="librarian\demo.aspx" />
+    <Content Include="librarian\display_all_books.aspx" />
+    <Content Include="librarian\edit_books.aspx" />
     <Content Include="librarian\images\admin.jpg" />
     <Content Include="librarian\images\avatar\1.jpg" />
     <Content Include="librarian\images\avatar\2.jpg" />
@@ -975,6 +977,20 @@
     </Compile>
     <Compile Include="librarian\demo.aspx.designer.cs">
       <DependentUpon>demo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\display_all_books.aspx.cs">
+      <DependentUpon>display_all_books.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\display_all_books.aspx.designer.cs">
+      <DependentUpon>display_all_books.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\edit_books.aspx.cs">
+      <DependentUpon>edit_books.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\edit_books.aspx.designer.cs">
+      <DependentUpon>edit_books.aspx</DependentUpon>
     </Compile>
     <Compile Include="librarian\librarian.Master.cs">
       <DependentUpon>librarian.Master</DependentUpon>
