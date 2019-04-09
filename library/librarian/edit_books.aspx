@@ -19,8 +19,6 @@
                                           <asp:TextBox ID="title" runat="server" class="form-control" ></asp:TextBox>
                                       </div>
 
-                                      
-
                                       <div class="form-group">
                                           <label class="control-label mb-1">Book's Author Name</label>
                                           

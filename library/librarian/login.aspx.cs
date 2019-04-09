@@ -34,7 +34,7 @@ namespace library.librarian
 
             if(count > 0)
             {
-                Response.Redirect("demo.aspx");
+                Response.Redirect("display_all_books.aspx");
             }
 
             else
