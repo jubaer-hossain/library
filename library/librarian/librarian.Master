@@ -70,8 +70,8 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
                        aria-expanded="false"> <i class="menu-icon fa fa-user"></i>Customers</a>
                     <ul class="sub-menu children dropdown-menu">
-                        <li><i class="fa fa-user"></i><a href="tables-basic.html">Customer List</a></li>
-                        <li><i class="fa fa-user"></i><a href="tables-data.html">Books Requested</a></li>
+                        <li><i class="fa fa-user"></i><a href="issued_books.aspx">Customer List</a></li>
+                        <li><i class="fa fa-user"></i><a href="new_issue.aspx">New Issue</a></li>
                     </ul>
                 </li>
                 
