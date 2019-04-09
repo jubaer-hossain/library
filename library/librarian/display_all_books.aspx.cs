@@ -22,7 +22,7 @@ namespace library.librarian
 
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select * from books";
+            cmd.CommandText = "EXEC [dbo].[Procedure]";
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             da.Fill(dt);
