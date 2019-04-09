@@ -1847,7 +1847,8 @@
     <Content Include="librarian\images\placeholder.png" />
     <Content Include="librarian\images\twitter_corner_black.png" />
     <Content Include="librarian\images\twitter_corner_blue.png" />
-    <Content Include="librarian\issue_books.aspx" />
+    <Content Include="librarian\issued_books.aspx" />
+    <Content Include="librarian\new_issue.aspx" />
     <Content Include="librarian\login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -1915,12 +1916,19 @@
     <Compile Include="librarian\edit_books.aspx.designer.cs">
       <DependentUpon>edit_books.aspx</DependentUpon>
     </Compile>
-    <Compile Include="librarian\issue_books.aspx.cs">
-      <DependentUpon>issue_books.aspx</DependentUpon>
+    <Compile Include="librarian\issued_books.aspx.cs">
+      <DependentUpon>issued_books.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="librarian\issue_books.aspx.designer.cs">
-      <DependentUpon>issue_books.aspx</DependentUpon>
+    <Compile Include="librarian\issued_books.aspx.designer.cs">
+      <DependentUpon>issued_books.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\new_issue.aspx.cs">
+      <DependentUpon>new_issue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\new_issue.aspx.designer.cs">
+      <DependentUpon>new_issue.aspx</DependentUpon>
     </Compile>
     <Compile Include="librarian\librarian.Master.cs">
       <DependentUpon>librarian.Master</DependentUpon>
