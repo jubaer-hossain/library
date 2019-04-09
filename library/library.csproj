@@ -181,6 +181,7 @@
     <Content Include="customer\customer_login.aspx" />
     <Content Include="customer\customer_registration.aspx" />
     <Content Include="customer\demo.aspx" />
+    <Content Include="customer\display_all_books.aspx" />
     <Content Include="customer\images\admin.jpg" />
     <Content Include="customer\images\avatar\1.jpg" />
     <Content Include="customer\images\avatar\2.jpg" />
@@ -1846,6 +1847,7 @@
     <Content Include="librarian\images\placeholder.png" />
     <Content Include="librarian\images\twitter_corner_black.png" />
     <Content Include="librarian\images\twitter_corner_blue.png" />
+    <Content Include="librarian\issue_books.aspx" />
     <Content Include="librarian\login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -1878,6 +1880,13 @@
     <Compile Include="customer\demo.aspx.designer.cs">
       <DependentUpon>demo.aspx</DependentUpon>
     </Compile>
+    <Compile Include="customer\display_all_books.aspx.cs">
+      <DependentUpon>display_all_books.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer\display_all_books.aspx.designer.cs">
+      <DependentUpon>display_all_books.aspx</DependentUpon>
+    </Compile>
     <Compile Include="librarian\add_books.aspx.cs">
       <DependentUpon>add_books.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1905,6 +1914,13 @@
     </Compile>
     <Compile Include="librarian\edit_books.aspx.designer.cs">
       <DependentUpon>edit_books.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarian\issue_books.aspx.cs">
+      <DependentUpon>issue_books.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarian\issue_books.aspx.designer.cs">
+      <DependentUpon>issue_books.aspx</DependentUpon>
     </Compile>
     <Compile Include="librarian\librarian.Master.cs">
       <DependentUpon>librarian.Master</DependentUpon>
