@@ -3,7 +3,7 @@
     <div class="col-lg-12">
         <div class="card">
             <div class="card-header">
-                <strong class="card-title">Available Books</strong>
+                <strong class="card-title">Issued Books</strong>
             </div>
             <div class="card-body">
 

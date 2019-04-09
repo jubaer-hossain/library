@@ -1,0 +1,6 @@
+﻿USE [C:\LIBRARY\LIBRARY\APP_DATA\LMS.MDF]
+GO
+
+EXEC [dbo].[Procedure]
+
+GO
